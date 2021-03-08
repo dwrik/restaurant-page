@@ -62,22 +62,20 @@ body {
 }
 
 .main {
-    width: 80%;
+    width: 60%;
     margin: 20px;
     padding: 20px;
+    line-height: 3em;
     font-size: 1.5em;
     min-height: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
-}
-
-.spaced-lines {
-    line-height: 3em;
 }
 
 .card-container {
@@ -90,7 +88,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
 }
@@ -148,4 +146,9 @@ body {
         width: 100%;
         font-size: 1em;
     }
+}
+
+.main img {
+    width: 50%;
+    height: auto;
 }
