@@ -31,6 +31,12 @@ body {
     font-family: 'Meie Script', cursive;
 }
 
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .buttons {
     padding: 20px;
     color: white;
@@ -59,7 +65,6 @@ body {
     width: 80%;
     margin: 20px;
     padding: 20px;
-    line-height: 3em;
     font-size: 1.5em;
     min-height: 400px;
     text-align: center;
@@ -69,4 +74,78 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
+}
+
+.spaced-lines {
+    line-height: 3em;
+}
+
+.card-container {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+
+
+.card {
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../images/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg");
+    background-size: cover;
+    transition: all 300ms;
+}
+
+.title {
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: start;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 550px) {
+    #heading {
+        font-size: 6em;
+    }
+}
+
+@media (max-width: 400px) {
+    #heading {
+        font-size: 4em;
+    }
+    .buttons {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 400px) {
+    #heading {
+        font-size: 2.5em;
+    }
+    .buttons {
+        width: 100%;
+        font-size: 1em;
+    }
 }
