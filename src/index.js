@@ -2,7 +2,7 @@ import homeModule from './home';
 import contactModule from './contact'
 import menuModule from './menu';
 
-function controller() {
+const controller = (() => {
 
     const home = document.querySelector('#home');
     home.addEventListener('click', (event) => {
@@ -37,6 +37,4 @@ function controller() {
 
     home.click();
 
-}
-
-controller();
+})();
