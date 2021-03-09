@@ -10,8 +10,8 @@ const homeModule = () => {
 
     const firstP = document.createElement('p');
     firstP.innerHTML = 'Each of our pizzas are specially made, savory round, flattened base of leavened wheat-based' +
-                'dough topped with tangy tomatoes, dripping cheese and various other ingredients as per your choice, baked' +
-                'at the perfect temperature to give you that blissful feeling of ecstasy that you will find no where else.';
+                ' dough topped with tangy tomatoes, dripping cheese and various other ingredients as per your choice, baked' +
+                ' at the perfect temperature to give you that blissful feeling of ecstasy that you will find no where else.';
 
     const secondP = document.createElement('p');
     secondP.innerHTML = 'Best pizza\'s from around the world now in your city. Visit us or order online!';
